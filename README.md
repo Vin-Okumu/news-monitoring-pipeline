@@ -23,9 +23,6 @@ news-monitoring-pipeline
 │   ├── requirements.md
 │   └── testing_strategy.md
 ├── notebooks/
-│   ├── test_database.py
-│   └── test_pipeline.py
-├── notebooks/
 ├── scripts/
 ├── src/
 │   ├── api/
@@ -38,8 +35,14 @@ news-monitoring-pipeline
 │   └── config.py
 ├── tests/
 │   ├── api/
+│   │   └── test_articles.py
 │   ├── integration/
+│   │   ├── test_database.py
+│   │   └── test_pipeline.py
 │   ├── unit/
+│   │   ├── test_cleaner.py
+│   │   ├── test_duplicator.py
+│   │   └── test_matcher.py
 │   └── conftest.py
 ├── .env
 ├── .env.example
