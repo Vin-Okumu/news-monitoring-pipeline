@@ -25,14 +25,12 @@ news-monitoring-pipeline
 ├── notebooks/
 ├── scripts/
 ├── src/
-│   ├── api/
-│   ├── collectors/
-│   ├── database/
-│   ├── news_monitor/
-│   ├── processing/
-│   ├── scheduler/
-│   ├── _init_.py
-│   └── config.py
+│   └── news_monitor/
+│        ├── api/
+│        ├── collectors/
+│        ├── database/
+│        ├── processing/
+│        └── scheduler/
 ├── tests/
 │   ├── api/
 │   │   └── test_articles.py
