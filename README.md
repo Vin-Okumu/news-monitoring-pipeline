@@ -11,12 +11,41 @@ The project explores web data extraction, data cleaning, entity and keyword matc
 # Repository Structure
 
 ```
-* `docs/` — Requirements, architecture, design decisions and operating documentation.
-* `src/news_monitor/` — Application source code.
-* `tests/` — Unit, integration and API tests.
-* `scripts/` — Repeatable operational commands.
-* `notebooks/` — Exploratory analysis and technical experiments.
-* `data/` — Local development and sample data.
+news-monitoring-pipeline
+├── data/
+├── docs/
+│   ├── decisions/
+│   ├── architecture.md
+│   ├── data_dictionary.md
+│   ├── database_design.md
+│   ├── operations_guide.md
+│   ├── project_understanding.md
+│   ├── requirements.md
+│   └── testing_strategy.md
+├── notebooks/
+│   ├── test_database.py
+│   └── test_pipeline.py
+├── notebooks/
+├── scripts/
+├── src/
+│   ├── api/
+│   ├── collectors/
+│   ├── database/
+│   ├── news_monitor/
+│   ├── processing/
+│   ├── scheduler/
+│   ├── _init_.py
+│   └── config.py
+├── tests/
+│   ├── api/
+│   ├── integration/
+│   ├── unit/
+│   └── conftest.py
+├── .env
+├── .env.example
+├── .gitignore
+├── pyproject.toml
+└── README.md
 ```
 
 # Project Status
